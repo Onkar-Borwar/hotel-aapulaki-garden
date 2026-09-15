@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hotel Aapulaki Garden</title>
+    <script>
+      (function () {
+        var path = window.location.pathname;
+        var segments = path.split('/').filter(Boolean);
+        var isGithubPages = window.location.hostname.endsWith('github.io');
+        var base = isGithubPages && segments.length > 1 ? '/' + segments[0] + '/' : '/';
+        var route = isGithubPages && segments.length > 1
+          ? '/' + segments.slice(1).join('/')
+          : path;
+        sessionStorage.redirect = base + route.replace(/^\//, '') + window.location.search + window.location.hash;
+        window.location.replace(base);
+      })();
+    </script>
+  </head>
+  <body>Returning you to Hotel Aapulaki Garden…</body>
+</html>

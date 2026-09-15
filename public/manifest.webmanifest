@@ -1,0 +1,19 @@
+{
+  "name": "Hotel Aapulaki Garden",
+  "short_name": "Aapulaki Garden",
+  "description": "Maharashtrian, Indian, North Indian and seafood dining in Talegaon Dabhade.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#24473d",
+  "background_color": "#f5f0e8",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
