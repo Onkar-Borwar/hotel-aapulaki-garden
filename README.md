@@ -13,11 +13,7 @@ Responsive restaurant website for Hotel Aapulaki Garden, a Maharashtrian, Indian
 
 ## Verified business details
 
-- **Phone:** +91 99232 34619
-- **WhatsApp:** +91 99232 34619
-- **Address:** Talegaon–Chakan Highway, Malwadi, Talegaon Dabhade, Maharashtra 410507, India
-- **Coordinates:** 18.7353914, 73.7106252
-- **Google Maps:** the official listing link is kept in `src/App.tsx`
+
 
 Opening hours, current prices, offers, ratings, reviews, awards and social accounts were not verified, so the site does not present them as facts. The supplied Google Maps listing photo is used in the homepage and gallery with a direct link back to the listing.
 
