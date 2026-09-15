@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Hotel Aapulaki Garden | Maharashtrian Restaurant in Talegaon</title>
+    <meta name="description" content="Hotel Aapulaki Garden is a family dining destination on the Talegaon–Chakan Highway serving Maharashtrian, Indian, North Indian and seafood cuisine." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" id="canonical-url" />
+    <meta property="og:title" content="Hotel Aapulaki Garden" />
+    <meta property="og:description" content="Maharashtrian, Indian, North Indian and seafood dining in Malwadi, Talegaon Dabhade." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hotel Aapulaki Garden" />
+    <meta name="twitter:description" content="Maharashtrian, Indian, North Indian and seafood dining in Malwadi, Talegaon Dabhade." />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        if (redirect) {
+          delete sessionStorage.redirect;
+          history.replaceState(null, null, redirect);
+        }
+        document.getElementById('canonical-url').setAttribute('href', window.location.href.split('#')[0]);
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Hotel Aapulaki Garden",
+        "description": "Maharashtrian, Indian, North Indian and seafood restaurant in Talegaon Dabhade.",
+        "telephone": "+91 99232 34619",
+        "servesCuisine": ["Maharashtrian", "Indian", "North Indian", "Seafood"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Talegaon–Chakan Highway, Malwadi",
+          "addressLocality": "Talegaon Dabhade",
+          "addressRegion": "Maharashtra",
+          "postalCode": "410507",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7353914,
+          "longitude": 73.7106252
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
